@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.head{
+    width: 100%;
+    height: 100vh;
+    background-image:url(PROFILE/k2.png);
+    background-position: center;
+    background-size: cover;
+    padding: 10px 10p%;
+    overflow: hidden;
+    position: relative;
+}
+nav{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 140px;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(231, 4, 4);
+    font-weight: 900;
+    font-size: larger;
+}
+.nav ul li a{
+    background-color: #df4881;
+}
+.login-btn{
+    text-decoration: none;
+    color: rgb(55, 7, 228);
+    margin-right: 15px;
+    font-weight: 900;
+}
+.btn1{
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 14px;
+    color: blue;
+    background-image: linear-gradient(45deg,#df4881,#c430d7);
+    font-size: 18px;
+    border-radius: 30px;
+    transition: 2sec ease;
+
+}
+.content{
+    margin-top: 10%;
+    max-width: 600px;
+}
+.content h1{
+    font-size:70px;
+    color: crimson;
+}
+.content h1:hover{
+    color: darkgoldenrod;
+}
+.nav ul li a:hover{
+    color: black;
+}
+.content p{
+    margin: 10px 30px 50px;
+    color: blue;
+    font-size: 19px;
+}
+.content .btn{
+    padding: 10px 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    color: black;
+    background-color: rgb(17, 167, 204);
+    border-radius: 50%;
+   
+}
+.btn:hover{
+    color: rgb(170, 54, 8);
+    border: 30px;
+}
+.image{
+    width: 360px;
+    height: 350px;
+
+    position: absolute;
+    bottom: 20%;
+    right: 10%;
+    border-radius: 50%;
+}
+.animation{
+    transform: translateY(40px);
+    animation: infinite;
+}
+
+.shape:hover .image{
+    bottom: 30%;
+   
+    
+}
